@@ -51,12 +51,16 @@
         opacity: 0;
         color: #71736F;
         text-align: right;
-        margin-right: 1em;
+        margin-right: 28px;
         @include transition(opacity 0.1s linear);
     }
 
     &:hover .time {
         opacity: 1;
+    }
+    
+    &:hover {
+        background-color: #2E2F32;
     }
 
     .message {

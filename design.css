@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Basic Body Structure */
 * {
   -webkit-box-sizing: border-box;
@@ -59,7 +58,7 @@ body {
     opacity: 0;
     color: #71736F;
     text-align: right;
-    margin-right: 1em;
+    margin-right: 28px;
     -webkit-transition: opacity 0.1s linear;
     -moz-transition: opacity 0.1s linear;
     -ms-transition: opacity 0.1s linear;
@@ -67,6 +66,8 @@ body {
     transition: opacity 0.1s linear; }
   .line:hover .time {
     opacity: 1; }
+  .line:hover {
+    background-color: #2E2F32; }
   .line .message {
     padding-left: 11em;
     padding-right: 4em;
